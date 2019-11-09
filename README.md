@@ -1,18 +1,15 @@
-RGB LED shield for the WeMos D1 Mini
-====================================
+Zigbee2Tasmota Zigbee Coordinator
+=================================
 
-Copyright 2016 SuperHouse Automation Pty Ltd  www.superhouse.tv  
+Copyright 2019 SuperHouse Automation Pty Ltd  www.superhouse.tv  
 
-An array of RGB LEDs for the [WeMos D1 Mini][1] and other compatible boards 
-based on the same header format.
+Combines a Wemos D1 Mini and a Z-0001 module with CC2531 CC.
 
-Features:
-
- * 3x4 array of WS2812 RGB LEDs
+Uses the Zigbee2Tasmota firmware to operate as a Zigbee Coordinator.
 
 More information is available at:
 
-  http://www.superhouse.tv/d1mpixel
+  http://www.superhouse.tv/z2t
 
 
 INSTALLATION
@@ -34,7 +31,3 @@ LICENSE
 Licensed under the TAPR Open Hardware License (www.tapr.org/OHL).
 The "license" folder within this repository also contains a copy of
 this license in plain text format.
-
-
-[1]: http://www.wemos.cc/wiki/doku.php?id=en:d1_mini
-
