@@ -1778,7 +1778,7 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="91.44" y="58.42" size="1.778" layer="94" rot="MR0" align="bottom-right">GPIO15/CS/TXD2</text>
 <text x="91.44" y="68.58" size="1.778" layer="94" rot="MR0" align="bottom-right">GPIO16/!WAKE</text>
 <text x="7.62" y="6.858" size="1.778" layer="94">SKU: Z2T</text>
-<text x="7.62" y="12.7" size="2.794" layer="94">SuperHouse Automation Zigbee2Tasmota</text>
+<text x="7.62" y="12.7" size="2.794" layer="94">Zigbee2Tasmota Zigbee Coordinator</text>
 <text x="81.28" y="6.858" size="1.778" layer="94">V1.0 (2019-11-9)</text>
 <text x="32.766" y="6.858" size="1.778" layer="94">www.superhouse.tv/z2t</text>
 <frame x1="5.08" y1="5.08" x2="109.22" y2="17.78" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
