@@ -7,6 +7,8 @@ Combines a Wemos D1 Mini and a Z-0001 module with CC2531 CC.
 
 Uses the Zigbee2Tasmota firmware to operate as a Zigbee Coordinator.
 
+![PCB render](Z2T-v1_0-render-600.jpg)
+
 More information is available at:
 
   http://www.superhouse.tv/z2t

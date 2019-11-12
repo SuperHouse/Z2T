@@ -1582,12 +1582,12 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="5V" urn="urn:adsk.eagle:symbol:11790506/2" library_version="3">
-<description>5V power source</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<symbol name="NOCONNECTION" urn="urn:adsk.eagle:symbol:15098905/1" library_version="5">
+<description>A No Connection symbol only&lt;p&gt;
+
+Handy to use on those pins that you want to mark as NC on a schematic.</description>
+<wire x1="-0.508" y1="0.508" x2="0.508" y2="-0.508" width="0.254" layer="97"/>
+<wire x1="0.508" y1="0.508" x2="-0.508" y2="-0.508" width="0.254" layer="97"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1617,9 +1617,10 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 </devices>
 </deviceset>
-<deviceset name="5V" urn="urn:adsk.eagle:component:11790510/2" library_version="3">
+<deviceset name="NC" urn="urn:adsk.eagle:component:15098906/2" library_version="5">
+<description>NC: No Connection</description>
 <gates>
-<gate name="G$1" symbol="5V" x="0" y="0"/>
+<gate name="G$1" symbol="NOCONNECTION" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -1756,12 +1757,37 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND3" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="GND" device=""/>
 <part name="P+2" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="3.3V" device=""/>
 <part name="P+3" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="3.3V" device=""/>
-<part name="U$2" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="5V" device=""/>
 <part name="SJ1" library="SuperHouse-Jumpers" library_urn="urn:adsk.eagle:library:12190622" deviceset="SJC" device="-NORMAL" package3d_urn="urn:adsk.eagle:package:7066342/1"/>
 <part name="SJ2" library="SuperHouse-Jumpers" library_urn="urn:adsk.eagle:library:12190622" deviceset="SJC" device="-NORMAL" package3d_urn="urn:adsk.eagle:package:7066342/1"/>
 <part name="SJ3" library="SuperHouse-Jumpers" library_urn="urn:adsk.eagle:library:12190622" deviceset="SJC" device="-NORMAL" package3d_urn="urn:adsk.eagle:package:7066342/1"/>
 <part name="SJ4" library="SuperHouse-Jumpers" library_urn="urn:adsk.eagle:library:12190622" deviceset="SJC" device="-NORMAL" package3d_urn="urn:adsk.eagle:package:7066342/1"/>
 <part name="SJ5" library="SuperHouse-Jumpers" library_urn="urn:adsk.eagle:library:12190622" deviceset="SJC" device="-NORMAL" package3d_urn="urn:adsk.eagle:package:7066342/1"/>
+<part name="U$1" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$2" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$3" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$4" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$5" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$6" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$7" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$8" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$9" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$10" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$11" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$12" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$13" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$14" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$15" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$16" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$17" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$18" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$19" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$20" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$21" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$22" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$23" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$24" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$25" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
+<part name="U$26" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="NC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1794,17 +1820,21 @@ D3: 10k pullup on D1 Mini
 D4: 10k pullup on D1 Mini
 D8: 10k pulldown on D1 Mini
 
-GPIO12  D6 DD
-GPIO4    D2 DC
-GPIO5    D1 CC_RST
-GPIO13  D7 CC_TXD P0_3
-GPIO15  D8 CC_RXD P0_2</text>
+GPIO12  D6   CC_DD
+GPIO4    D2   CC_DC
+GPIO5    D1   CC_RST
+GPIO13  D7   CC_TXD P0_3
+GPIO15  D8   CC_RXD P0_2</text>
 <text x="7.62" y="20.32" size="1.778" layer="97">For full D1 Mini specs see http://www.wemos.cc/Products/d1_mini.html</text>
+<text x="152.4" y="58.42" size="1.778" layer="94" rot="MR0">GND</text>
+<text x="152.4" y="55.88" size="1.778" layer="94" rot="MR0">5V</text>
+<text x="91.44" y="55.88" size="1.778" layer="94" rot="MR0" align="bottom-right">3.3V</text>
+<text x="91.44" y="73.66" size="1.778" layer="94" rot="MR0" align="bottom-right">RST</text>
 </plain>
 <instances>
-<instance part="J3" gate="G$1" x="85.09" y="66.04" smashed="yes" rot="R180">
-<attribute name="VALUE" x="90.17" y="78.74" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="90.17" y="52.578" size="1.778" layer="95" rot="R180"/>
+<instance part="J3" gate="G$1" x="83.82" y="66.04" smashed="yes" rot="R180">
+<attribute name="VALUE" x="88.9" y="78.74" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="88.9" y="52.578" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="J4" gate="G$1" x="160.02" y="66.04" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="154.94" y="78.74" size="1.778" layer="96" rot="MR180"/>
@@ -1833,9 +1863,6 @@ GPIO15  D8 CC_RXD P0_2</text>
 <instance part="P+3" gate="G$1" x="66.04" y="78.74" smashed="yes">
 <attribute name="VALUE" x="65.024" y="82.296" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="177.8" y="78.74" smashed="yes">
-<attribute name="VALUE" x="176.784" y="82.296" size="1.778" layer="96"/>
-</instance>
 <instance part="SJ1" gate="G$1" x="119.38" y="132.08" smashed="yes">
 <attribute name="NAME" x="116.84" y="134.62" size="1.778" layer="95"/>
 <attribute name="VALUE" x="116.84" y="128.27" size="1.778" layer="96"/>
@@ -1856,6 +1883,32 @@ GPIO15  D8 CC_RXD P0_2</text>
 <attribute name="NAME" x="116.84" y="93.98" size="1.778" layer="95"/>
 <attribute name="VALUE" x="116.84" y="87.63" size="1.778" layer="96"/>
 </instance>
+<instance part="U$1" gate="G$1" x="78.74" y="73.66" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="78.74" y="71.12" smashed="yes"/>
+<instance part="U$3" gate="G$1" x="78.74" y="68.58" smashed="yes"/>
+<instance part="U$4" gate="G$1" x="78.74" y="66.04" smashed="yes"/>
+<instance part="U$5" gate="G$1" x="165.1" y="63.5" smashed="yes"/>
+<instance part="U$6" gate="G$1" x="165.1" y="60.96" smashed="yes"/>
+<instance part="U$7" gate="G$1" x="165.1" y="55.88" smashed="yes"/>
+<instance part="U$8" gate="G$1" x="106.68" y="157.48" smashed="yes"/>
+<instance part="U$9" gate="G$1" x="91.44" y="152.4" smashed="yes"/>
+<instance part="U$10" gate="G$1" x="154.94" y="152.4" smashed="yes"/>
+<instance part="U$11" gate="G$1" x="139.7" y="160.02" smashed="yes"/>
+<instance part="U$12" gate="G$1" x="154.94" y="160.02" smashed="yes"/>
+<instance part="U$13" gate="G$1" x="139.7" y="154.94" smashed="yes"/>
+<instance part="U$14" gate="G$1" x="154.94" y="154.94" smashed="yes"/>
+<instance part="U$15" gate="G$1" x="139.7" y="152.4" smashed="yes"/>
+<instance part="U$16" gate="G$1" x="106.68" y="152.4" smashed="yes"/>
+<instance part="U$17" gate="G$1" x="91.44" y="154.94" smashed="yes"/>
+<instance part="U$18" gate="G$1" x="91.44" y="157.48" smashed="yes"/>
+<instance part="U$19" gate="G$1" x="106.68" y="160.02" smashed="yes"/>
+<instance part="U$20" gate="G$1" x="91.44" y="160.02" smashed="yes"/>
+<instance part="U$21" gate="G$1" x="106.68" y="162.56" smashed="yes"/>
+<instance part="U$22" gate="G$1" x="91.44" y="165.1" smashed="yes"/>
+<instance part="U$23" gate="G$1" x="106.68" y="167.64" smashed="yes"/>
+<instance part="U$24" gate="G$1" x="165.1" y="73.66" smashed="yes"/>
+<instance part="U$25" gate="G$1" x="165.1" y="71.12" smashed="yes"/>
+<instance part="U$26" gate="G$1" x="106.68" y="154.94" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -1904,18 +1957,11 @@ GPIO15  D8 CC_RXD P0_2</text>
 <label x="106.68" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D5" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="80.01" y1="66.04" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
-<label x="78.74" y="66.04" size="1.27" layer="95" rot="MR0" xref="yes"/>
-</segment>
-</net>
 <net name="D6" class="0">
 <segment>
-<wire x1="80.01" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="5"/>
-<label x="78.74" y="63.5" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="76.2" y="63.5" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SJ1" gate="G$1" pin="1"/>
@@ -1926,8 +1972,8 @@ GPIO15  D8 CC_RXD P0_2</text>
 <net name="D7" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="6"/>
-<wire x1="80.01" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
-<label x="78.74" y="60.96" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="78.74" y1="60.96" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
+<label x="76.2" y="60.96" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SJ4" gate="G$1" pin="1"/>
@@ -1938,34 +1984,13 @@ GPIO15  D8 CC_RXD P0_2</text>
 <net name="D8" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="7"/>
-<wire x1="80.01" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
-<label x="78.74" y="58.42" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="78.74" y1="58.42" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
+<label x="76.2" y="58.42" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SJ5" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
 <label x="106.68" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="A0" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="80.01" y1="71.12" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
-<label x="78.74" y="71.12" size="1.27" layer="95" rot="MR0" xref="yes"/>
-</segment>
-</net>
-<net name="RST" class="0">
-<segment>
-<wire x1="80.01" y1="73.66" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="1"/>
-<label x="78.74" y="73.66" size="1.27" layer="95" rot="MR0" xref="yes"/>
-</segment>
-</net>
-<net name="D0" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="80.01" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
-<label x="78.74" y="68.58" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -1980,20 +2005,6 @@ GPIO15  D8 CC_RXD P0_2</text>
 <pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="71.12" x2="167.64" y2="71.12" width="0.1524" layer="91"/>
 <label x="167.64" y="71.12" size="1.27" layer="95" rot="MR180" xref="yes"/>
-</segment>
-</net>
-<net name="D4" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="6"/>
-<wire x1="165.1" y1="60.96" x2="167.64" y2="60.96" width="0.1524" layer="91"/>
-<label x="167.64" y="60.96" size="1.27" layer="95" rot="MR180" xref="yes"/>
-</segment>
-</net>
-<net name="D3" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="5"/>
-<wire x1="165.1" y1="63.5" x2="167.64" y2="63.5" width="0.1524" layer="91"/>
-<label x="167.64" y="63.5" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="P2_3" class="0">
@@ -2086,7 +2097,7 @@ GPIO15  D8 CC_RXD P0_2</text>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="8"/>
-<wire x1="80.01" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="55.88" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="G$1" pin="3.3V"/>
 </segment>
@@ -2172,46 +2183,28 @@ GPIO15  D8 CC_RXD P0_2</text>
 <label x="162.56" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="5V" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="8"/>
-<wire x1="165.1" y1="55.88" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="55.88" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="5V"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,162.56,144.78,LED1,VDD,5V,,,"/>
-<approved hash="104,1,162.56,114.3,LED2,VDD,5V,,,"/>
-<approved hash="104,1,162.56,83.82,LED3,VDD,5V,,,"/>
-<approved hash="104,1,162.56,53.34,LED4,VDD,5V,,,"/>
-<approved hash="104,1,121.92,144.78,LED5,VDD,5V,,,"/>
-<approved hash="104,1,121.92,114.3,LED6,VDD,5V,,,"/>
-<approved hash="104,1,121.92,83.82,LED7,VDD,5V,,,"/>
-<approved hash="104,1,121.92,53.34,LED8,VDD,5V,,,"/>
-<approved hash="104,1,78.74,144.78,LED9,VDD,5V,,,"/>
-<approved hash="104,1,78.74,114.3,LED10,VDD,5V,,,"/>
-<approved hash="104,1,78.74,83.82,LED11,VDD,5V,,,"/>
-<approved hash="104,1,78.74,53.34,LED12,VDD,5V,,,"/>
-<approved hash="106,1,39.37,93.98,3.3V,,,,,"/>
-<approved hash="106,1,53.34,116.84,3.3V,,,,,"/>
-<approved hash="106,1,39.37,109.22,A0,,,,,"/>
-<approved hash="106,1,39.37,111.76,RST,,,,,"/>
-<approved hash="106,1,213.36,78.74,RX,,,,,"/>
-<approved hash="106,1,213.36,81.28,TX,,,,,"/>
-<approved hash="113,1,36.1527,101.405,H1,,,,,"/>
-<approved hash="113,1,216.577,70.9253,H2,,,,,"/>
-<approved hash="113,1,208.28,161.536,SJ1,,,,,"/>
-<approved hash="113,1,208.28,153.916,SJ2,,,,,"/>
-<approved hash="113,1,208.28,146.296,SJ3,,,,,"/>
-<approved hash="113,1,208.28,138.676,SJ4,,,,,"/>
-<approved hash="113,1,208.28,131.056,SJ5,,,,,"/>
-<approved hash="113,1,208.28,123.436,SJ6,,,,,"/>
-<approved hash="113,1,208.28,115.816,SJ7,,,,,"/>
-<approved hash="113,1,208.28,108.196,SJ8,,,,,"/>
+<approved hash="106,1,139.7,160.02,P0_0,,,,,"/>
+<approved hash="106,1,154.94,160.02,P0_1,,,,,"/>
+<approved hash="106,1,139.7,154.94,P0_4,,,,,"/>
+<approved hash="106,1,154.94,154.94,P0_5,,,,,"/>
+<approved hash="106,1,139.7,152.4,P0_6,,,,,"/>
+<approved hash="106,1,106.68,152.4,P1_0,,,,,"/>
+<approved hash="106,1,106.68,154.94,P1_2,,,,,"/>
+<approved hash="106,1,91.44,154.94,P1_3,,,,,"/>
+<approved hash="106,1,91.44,157.48,P1_5,,,,,"/>
+<approved hash="106,1,106.68,160.02,P1_6,,,,,"/>
+<approved hash="106,1,91.44,160.02,P1_7,,,,,"/>
+<approved hash="106,1,106.68,162.56,P2_0,,,,,"/>
+<approved hash="106,1,91.44,165.1,P2_3,,,,,"/>
+<approved hash="106,1,106.68,167.64,P2_4,,,,,"/>
+<approved hash="106,1,165.1,71.12,RX,,,,,"/>
+<approved hash="106,1,165.1,73.66,TX,,,,,"/>
+<approved hash="113,1,81.9573,63.2409,J3,,,,,"/>
+<approved hash="113,1,161.883,63.2104,J4,,,,,"/>
 </errors>
 </schematic>
 </drawing>

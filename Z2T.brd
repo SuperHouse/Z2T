@@ -3,7 +3,7 @@
 <eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -1082,9 +1082,6 @@ We want bragging rights that we helped (in a very small part) to create your 8th
 <wire x1="16.95" y1="24.13" x2="18" y2="25.18" width="0.254" layer="16"/>
 <wire x1="18" y1="25.18" x2="18" y2="28.238" width="0.254" layer="16"/>
 </signal>
-<signal name="D5">
-<contactref element="J3" pad="4"/>
-</signal>
 <signal name="D6">
 <contactref element="J3" pad="5"/>
 <contactref element="SJ1" pad="1"/>
@@ -1105,26 +1102,11 @@ We want bragging rights that we helped (in a very small part) to create your 8th
 <wire x1="24.57" y1="3.57" x2="25" y2="4" width="0.254" layer="16"/>
 <wire x1="25" y1="4" x2="25" y2="6.238" width="0.254" layer="16"/>
 </signal>
-<signal name="A0">
-<contactref element="J3" pad="2"/>
-</signal>
-<signal name="D0">
-<contactref element="J3" pad="3"/>
-</signal>
-<signal name="D3">
-<contactref element="J4" pad="5"/>
-</signal>
-<signal name="D4">
-<contactref element="J4" pad="6"/>
-</signal>
 <signal name="RX">
 <contactref element="J4" pad="2"/>
 </signal>
 <signal name="TX">
 <contactref element="J4" pad="1"/>
-</signal>
-<signal name="RST">
-<contactref element="J3" pad="1"/>
 </signal>
 <signal name="P2_3">
 <contactref element="J1" pad="3"/>
@@ -1253,9 +1235,6 @@ We want bragging rights that we helped (in a very small part) to create your 8th
 <signal name="P0_5">
 <contactref element="J2" pad="10"/>
 </signal>
-<signal name="5V">
-<contactref element="J4" pad="8"/>
-</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -1265,24 +1244,26 @@ We want bragging rights that we helped (in a very small part) to create your 8th
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="19,16,c0150a5ddb8b7ecc"/>
-<approved hash="19,16,2f5da1756a4c13c8"/>
-<approved hash="19,16,7e268f4cd54fd389"/>
-<approved hash="19,16,dbb64cd5928bec53"/>
-<approved hash="19,16,380c94e0973f39fc"/>
-<approved hash="18,29,c8adf80a33d283ec"/>
-<approved hash="18,29,cfc3f8b433aaaebf"/>
-<approved hash="18,29,cea9f3b61d32add8"/>
-<approved hash="18,29,cc15dd9d33b3af30"/>
-<approved hash="18,29,51570af8bd6dd53b"/>
-<approved hash="18,29,51150a66ba03f81a"/>
-<approved hash="18,29,383639a4f93b8023"/>
-<approved hash="18,29,3ab016fbd7f883f7"/>
-<approved hash="19,16,db650e5dc28179b6"/>
-<approved hash="19,16,2347ad6f0fb87a3c"/>
-<approved hash="19,16,16329b58d739a1ff"/>
-<approved hash="19,16,c3b543db84f0e234"/>
-<approved hash="19,16,3c0f9687894438f2"/>
+<approved hash="19,16,2b55c17a553948e8"/>
+<approved hash="19,16,4356856bab2d8eeb"/>
+<approved hash="19,16,fa48214a39fc4106"/>
+<approved hash="19,16,b460e3db8cf778b4"/>
+<approved hash="19,16,405de74859fa5914"/>
+<approved hash="19,16,d672f9d934f6bca6"/>
+<approved hash="19,16,52797dfff359bf26"/>
+<approved hash="19,16,56ba8ea60e39b5dc"/>
+<approved hash="19,16,4c6b47ff135b7f34"/>
+<approved hash="19,16,b8ab30a61e38f1ce"/>
+<approved hash="19,16,4e6ded4bd9fbf920"/>
+<approved hash="19,16,484617db24f3f893"/>
+<approved hash="19,16,c08cc23f5362322b"/>
+<approved hash="19,16,288db62d79703027"/>
+<approved hash="19,16,f352754b8f0f8aef"/>
+<approved hash="19,16,099efb6f2076317c"/>
+<approved hash="19,16,d99d037f66624b7e"/>
+<approved hash="19,16,099a234eb4541d79"/>
+<approved hash="19,16,cb8c66c8790203b1"/>
+<approved hash="19,16,3b8c86da4b1195bd"/>
 </errors>
 </board>
 </drawing>
