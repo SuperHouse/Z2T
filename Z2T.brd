@@ -437,6 +437,9 @@ of the TAPR Open Hardware
 License: tapr.org/OHL</text>
 <wire x1="4.07" y1="63" x2="10" y2="63" width="0.1524" layer="21"/>
 <wire x1="26" y1="63" x2="31.93" y2="63" width="0.1524" layer="21"/>
+<text x="4.712" y="7.24" size="1.27" layer="22" font="vector" ratio="18" rot="MR180" align="bottom-center">v1.1</text>
+<wire x1="35.84" y1="4.4" x2="29.73" y2="4.4" width="0.254" layer="21"/>
+<wire x1="27.84" y1="2.4" x2="29.73" y2="4.4" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="freetronics-original">
@@ -1015,13 +1018,13 @@ We want bragging rights that we helped (in a very small part) to create your 8th
 <element name="J4" library="freetronics-original" package="1X08" value="" x="9.33" y="24.13" smashed="yes">
 <attribute name="VALUE" x="8.06" y="20.955" size="1.27" layer="27"/>
 </element>
-<element name="J2" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" package="2X06-S" package3d_urn="urn:adsk.eagle:package:15060598/2" value="M02X6-SOCKET" x="28.5" y="36" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.675" y="43.62" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="24.055" y="43.62" size="1.27" layer="27" rot="R270"/>
+<element name="J2" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" package="2X06-S" package3d_urn="urn:adsk.eagle:package:15060598/2" value="M02X6-SOCKET" x="28" y="36" smashed="yes" rot="R270">
+<attribute name="NAME" x="31.175" y="43.62" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="23.555" y="43.62" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J1" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" package="2X07-S" package3d_urn="urn:adsk.eagle:package:15060619/2" value="M02X7-SOCKET" x="7.8" y="37" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.975" y="45.89" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="3.355" y="45.89" size="1.27" layer="27" rot="R270"/>
+<element name="J1" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" package="2X07-S" package3d_urn="urn:adsk.eagle:package:15060619/2" value="M02X7-SOCKET" x="8" y="37" smashed="yes" rot="R270">
+<attribute name="NAME" x="11.175" y="45.89" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="3.555" y="45.89" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="SJ1" library="SuperHouse-Jumpers" library_urn="urn:adsk.eagle:library:12190622" package="SJC" package3d_urn="urn:adsk.eagle:package:7066342/1" value="SJC-NORMAL" x="19" y="7" smashed="yes" rot="MR90">
 <attribute name="NAME" x="20.143" y="5.349" size="1.27" layer="26" ratio="10" rot="MR90"/>
@@ -1119,7 +1122,7 @@ We want bragging rights that we helped (in a very small part) to create your 8th
 <wire x1="19" y1="7.762" x2="19" y2="14" width="0.254" layer="16"/>
 <wire x1="15" y1="18" x2="6" y2="18" width="0.254" layer="16"/>
 <wire x1="5" y1="39" x2="5.54" y2="39.54" width="0.254" layer="16"/>
-<wire x1="5.54" y1="39.54" x2="6.53" y2="39.54" width="0.254" layer="16"/>
+<wire x1="5.54" y1="39.54" x2="6.73" y2="39.54" width="0.254" layer="16"/>
 <wire x1="5" y1="19" x2="5" y2="39" width="0.254" layer="16"/>
 </signal>
 <signal name="P1_7">
@@ -1148,7 +1151,7 @@ We want bragging rights that we helped (in a very small part) to create your 8th
 <contactref element="SJ2" pad="2"/>
 <wire x1="18" y1="29.762" x2="18" y2="41" width="0.254" layer="16"/>
 <wire x1="18" y1="41" x2="16.92" y2="42.08" width="0.254" layer="16"/>
-<wire x1="16.92" y1="42.08" x2="9.07" y2="42.08" width="0.254" layer="16"/>
+<wire x1="16.92" y1="42.08" x2="9.27" y2="42.08" width="0.254" layer="16"/>
 </signal>
 <signal name="P2_4">
 <contactref element="J1" pad="2"/>
@@ -1189,7 +1192,7 @@ We want bragging rights that we helped (in a very small part) to create your 8th
 <wire x1="13.15" y1="26" x2="13.15" y2="21.85" width="0.254" layer="16"/>
 <wire x1="12" y1="27.15" x2="13.15" y2="26" width="0.254" layer="16"/>
 <wire x1="12" y1="31" x2="12" y2="27.15" width="0.254" layer="16"/>
-<wire x1="21.81" y1="39.81" x2="27.23" y2="39.81" width="0.254" layer="16"/>
+<wire x1="21.81" y1="39.81" x2="26.73" y2="39.81" width="0.254" layer="16"/>
 <wire x1="20.75" y1="21.75" x2="20.75" y2="38.75" width="0.254" layer="16"/>
 <wire x1="20.75" y1="38.75" x2="21.81" y2="39.81" width="0.254" layer="16"/>
 </signal>
@@ -1206,7 +1209,7 @@ We want bragging rights that we helped (in a very small part) to create your 8th
 <wire x1="26" y1="27" x2="24" y2="29" width="0.254" layer="16"/>
 <wire x1="28" y1="27" x2="26" y2="27" width="0.254" layer="16"/>
 <wire x1="24" y1="34" x2="24.73" y2="34.73" width="0.254" layer="16"/>
-<wire x1="24.73" y1="34.73" x2="27.23" y2="34.73" width="0.254" layer="16"/>
+<wire x1="24.73" y1="34.73" x2="26.73" y2="34.73" width="0.254" layer="16"/>
 <wire x1="24" y1="29" x2="24" y2="34" width="0.254" layer="16"/>
 </signal>
 <signal name="P0_4">
@@ -1229,7 +1232,7 @@ We want bragging rights that we helped (in a very small part) to create your 8th
 <wire x1="23" y1="29" x2="23" y2="34" width="0.254" layer="16"/>
 <wire x1="26" y1="26" x2="23" y2="29" width="0.254" layer="16"/>
 <wire x1="23" y1="34" x2="25" y2="36" width="0.254" layer="16"/>
-<wire x1="28.5" y1="36" x2="29.77" y2="34.73" width="0.254" layer="16"/>
+<wire x1="28.5" y1="36" x2="29.27" y2="34.73" width="0.254" layer="16"/>
 <wire x1="25" y1="36" x2="28.5" y2="36" width="0.254" layer="16"/>
 </signal>
 <signal name="P0_5">

@@ -1805,7 +1805,7 @@ Handy to use on those pins that you want to mark as NC on a schematic.</descript
 <text x="91.44" y="68.58" size="1.778" layer="94" rot="MR0" align="bottom-right">GPIO16/!WAKE</text>
 <text x="7.62" y="6.858" size="1.778" layer="94">SKU: Z2T</text>
 <text x="7.62" y="12.7" size="2.794" layer="94">Zigbee2Tasmota Zigbee Coordinator</text>
-<text x="81.28" y="6.858" size="1.778" layer="94">V1.0 (2019-11-9)</text>
+<text x="81.28" y="6.858" size="1.778" layer="94">V1.1 (2019-11-20)</text>
 <text x="32.766" y="6.858" size="1.778" layer="94">www.superhouse.tv/z2t</text>
 <frame x1="5.08" y1="5.08" x2="109.22" y2="17.78" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 <frame x1="78.74" y1="5.08" x2="109.22" y2="10.16" columns="8" rows="5" layer="94"/>
