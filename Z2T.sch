@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1485,7 +1485,8 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 </devices>
 </deviceset>
-<deviceset name="M02X7" urn="urn:adsk.eagle:component:15060620/2" prefix="J" library_version="146">
+<deviceset name="M02X7" urn="urn:adsk.eagle:component:15060620/3" prefix="J" library_version="183">
+<description>M14 header in 2x7 format</description>
 <gates>
 <gate name="J$1" symbol="M02X7" x="0" y="0"/>
 </gates>
